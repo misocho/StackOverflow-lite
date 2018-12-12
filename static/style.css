@@ -1,7 +1,9 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
+    vertical-align: baseline;
 }
 
 .top-bar{
@@ -15,7 +17,7 @@ body{
     transition: box-shadow cubic-bezier(.165, .84, .44, 1) .25s;
     height: 70px;
     box-sizing: border-box;
-    border-top: 3px solid #e2472f
+    border-top: 3px solid #e2472f;
 }
 
 .nav-bar{
@@ -128,4 +130,25 @@ body{
     background: #e76b58;
     color: #fff;
     transition: .3s;
+}
+
+.wrapper{
+    clear: both;
+    margin-left: -24px;
+    border-top: 1px solid #d6d9dc;
+    width: calc(100% - 300px - 24px);
+}
+
+.wrapper .q-list{
+    overflow: auto;
+    margin-bottom: 30px;
+}
+
+.wrapper .q-list .q-summary{
+    overflow: hidden;
+    border-bottom: 1px solid #eff0f1;
+    display: flex;
+    padding: 12px 8px;
+    float: none;
+    cursor: pointer;
 }
