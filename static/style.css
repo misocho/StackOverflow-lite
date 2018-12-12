@@ -137,7 +137,7 @@ body{
     clear: both;
     margin-left: -24px;
     border-top: 1px solid #d6d9dc;
-    width: calc(100% - 300px - 24px);
+    width: calc(100%);
 }
 
 .wrapper .q-list{
@@ -216,4 +216,21 @@ h3{
     line-height: 18px;
     float: left;
     background: black;
+}
+
+.question{
+    text-decoration: none;
+    color: #e2472f
+}
+
+.footer{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #242729;
+    text-align: center;
+    box-sizing: border-box;
+    color: #6a737c;
 }
