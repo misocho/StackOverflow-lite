@@ -1,0 +1,236 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
+    vertical-align: baseline;
+    box-sizing: inherit;
+}
+
+.top-bar{
+    position: fixed;
+    z-index:1;
+    min-width: auto;
+    box-shadow: 0 1px 0 rgba(12,13,14,0.1), 0 1px 6px rgba(59,64,69,0.1);
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fafafb;
+    transition: box-shadow cubic-bezier(.165, .84, .44, 1) .25s;
+    height: 70px;
+    box-sizing: border-box;
+    border-top: 3px solid #e2472f;
+}
+.nav-bar{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 1--px;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+.nav-bar nav .logo{
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+    font-size: 24px;
+    transition: .3s;
+}
+.container {
+    position: relative;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+.nav-bar nav ul {
+    list-style: none;
+    margin: 0;
+    float: right;
+    padding: 0;
+    display: flex;
+}
+
+.nav-bar nav ul li {
+    list-style: none;
+}
+
+.nav-bar nav ul li {
+    list-style: none;
+}
+
+.nav-bar nav ul li a {
+    line-height: 80px;
+    color: #6a737c;
+    padding: 19px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+.nav-bar nav ul li a.youarehere{
+    font-weight: bold;
+    color: #0C0D0E;
+    border-bottom: 3px solid #e2472f;
+}
+
+.nav-bar nav ul li a:hover {
+    border-radius: 6px;
+    background-color: #e2472f;
+    color: #fff;
+    transition: .3s;
+}
+
+
+.nav-bar nav ul li a.active{
+    color: #e2472f;
+    border-radius: 6px;
+
+}
+
+.nav-bar nav ul li a.active:hover{
+    background: #e2472f;
+    color: #fff;
+    border-radius: 6px;
+    transition: .3s;
+
+}
+
+#content{ 
+    padding-top: 75px;
+}
+
+#content .container .top-questions_left{ 
+    padding-left: 50px;
+    float: left;
+    padding-top: 50px;
+}
+
+#content .container .top-questions_left h1{ 
+    color: #e2472f;
+ }
+
+#content .container .ask-questions_right{
+    float: right;
+}
+
+#content .container .ask-questions_right .button{
+    line-height: 80px;
+    color: #151515;
+    padding: 12px 30px;
+    text-decoration: none;
+    transition: .3s;
+    background: #e2472f;
+    color: #fff;
+    border-radius: 6px;
+}
+
+#content .container .ask-questions_right .button:hover{
+    background: #e76b58;
+    color: #fff;
+    transition: .3s;
+}
+
+.wrapper{
+    clear: both;
+    margin-left: -24px;
+    border-top: 1px solid #d6d9dc;
+    width: calc(100%);
+}
+
+.wrapper .q-list{
+    overflow: auto;
+    margin-bottom: 30px;
+}
+
+.wrapper .q-list .q-summary{
+    overflow: hidden;
+    border-bottom: 1px solid #eff0f1;
+    display: flex;
+    padding: 12px 8px;
+    float: none;
+    cursor: pointer;
+}
+
+.wrapper .q-list .q-summary .count{
+    float: none;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    margin-right: 0;
+    box-sizing: content-box;
+    flex-shrink: 0;
+    vertical-align: top;
+    cursor: pointer;
+    padding-top: 13px;
+    padding-right: 10px;
+    padding-bottom: 13px;
+    padding-left: 10px;
+}
+
+.wrapper .q-list .q-summary .count .answer-count{
+    text-align: center;
+    color: #848d95;
+    display: inline-block;
+    margin: 0 3px 0 0;
+    min-width: 44px;
+    height: auto;
+    font-size: 11px;
+    padding: 6px;
+    border-radius: 3px;
+}
+
+.wrapper .q-list .q-summary .count .answer-count .total-counts{
+    font-size: 17px;
+    font-weight: 300;
+    color: #6a737c;
+    margin-bottom: 4px;
+}
+
+.wrapper .q-list .q-summary .count .votes-count{
+    text-align: center;
+    color: #848d95;
+    display: inline-block;
+    margin: 0 3px 0 0;
+    min-width: 44px;
+    height: auto;
+    font-size: 11px;
+    padding: 6px;
+    border-radius: 3px;
+}
+
+.wrapper .q-list .q-summary .count .votes-count .total-counts{
+    font-size: 17px;
+    font-weight: 300;
+    color: #6a737c;
+    margin-bottom: 4px;
+}
+
+h3{
+    font-weight: 400;
+}
+
+.wrapper .q-list .q-summary .summary .userTime{
+    line-height: 18px;
+    float: left;
+    background: black;
+}
+
+.question{
+    text-decoration: none;
+    color: #e2472f
+}
+
+.footer{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #242729;
+    text-align: center;
+    box-sizing: border-box;
+    color: #6a737c;
+}
