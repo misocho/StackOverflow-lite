@@ -37,8 +37,8 @@ body{
 }
 .container {
     position: relative;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 40px;
+    padding-left: 40px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -89,4 +89,39 @@ body{
     border-radius: 6px;
     transition: .3s;
 
+}
+
+#content{ 
+    padding-top: 75px;
+}
+
+#content .container .top-questions_left{ 
+    padding-left: 50px;
+    float: left;
+    padding-top: 50px;
+}
+
+#content .container .top-questions_left h1{ 
+    color: #e2472f;
+ }
+
+#content .container .ask-questions_right{
+    float: right;
+}
+
+#content .container .ask-questions_right .button{
+    line-height: 80px;
+    color: #151515;
+    padding: 12px 30px;
+    text-decoration: none;
+    transition: .3s;
+    background: #e2472f;
+    color: #fff;
+    border-radius: 6px;
+}
+
+#content .container .ask-questions_right .button:hover{
+    background: #e76b58;
+    color: #fff;
+    transition: .3s;
 }
