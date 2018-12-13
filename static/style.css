@@ -220,7 +220,11 @@ h3{
 
 .question{
     text-decoration: none;
-    color: #e2472f
+    color: #e2472f;
+}
+
+.question h3:hover{
+    color: #e76b58;
 }
 
 .footer{
