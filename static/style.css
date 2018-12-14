@@ -328,7 +328,7 @@ h3{
     padding: 20px;
     border: 1px solid #e4e6e8;
     width: 200px;
-    margin: 0px auto auto;
+    margin: 20px auto auto;
     border-radius: 5px;
     position: relative;
     color: #151515;
@@ -351,6 +351,11 @@ h3{
     color: #e2472f;
     font-size: 20px;
     margin-top: 20px;
+}
+
+.signup-box{
+    border: 1px solid #e4e6e8;
+    padding: 30px;
 }
 
 .signup-btn:hover{
