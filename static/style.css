@@ -127,7 +127,7 @@ nav{
     float: right;
 }
 
-#content .container .ask-questions_right .button {
+.button {
     margin-top: 50px;
     background: #e2472f;
     padding: 1em 2em;
@@ -135,10 +135,11 @@ nav{
     border: 0;
 }
 
-#content .container .ask-questions_right .button:hover {
+.button:hover,.button:focus {
     background: #e76b58;
     transition: .3s;
     box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2), 0 7px 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
 
 .wrapper{
@@ -383,9 +384,10 @@ h3{
 }
 
 .modal-content {
+    color: #e2472f;
     background-color: #f4f4f4;
     overflow: hidden;
-    margin: 14% auto;
+    margin: 5% auto;
     padding: 20px;
     width: 70%;
     box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2), 0 7px 20px rgba(0, 0, 0, 0.2);
@@ -406,4 +408,25 @@ h3{
 
 .modal-footer{
     float: right;
+}
+
+textarea{
+    height: 200px;
+    width: 800px;
+    border: #e2472f 1px solid;
+    border-radius: 5px;
+    text-align: left;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    color: #000
+}
+
+.question-text{
+    width: 800px;
+    font-size: 15px;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    border: 1px solid #e2472f;
+    color: #000;
+    border-radius: 5px;
 }
