@@ -224,21 +224,12 @@ nav{
     float: left;
 }
 
-
 .signup-btn:hover{
     background: #e2472f;
     color: white;
 }
-.bar-md{
-    padding: 20px;
-    border: 1px solid #e4e6e8;
-    width: 200px;
-    margin: 20px auto auto;
-    border-radius: 5px;
-    position: relative;
-    color: #151515;
-}
 
+}
 .bar-md a{
     color:#e2472f;
     cursor: pointer;
