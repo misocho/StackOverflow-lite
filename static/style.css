@@ -127,21 +127,18 @@ nav{
     float: right;
 }
 
-#content .container .ask-questions_right .button{
-    line-height: 80px;
-    color: #151515;
-    padding: 12px 30px;
-    text-decoration: none;
-    transition: .3s;
+#content .container .ask-questions_right .button {
+    margin-top: 50px;
     background: #e2472f;
+    padding: 1em 2em;
     color: #fff;
-    border-radius: 6px;
+    border: 0;
 }
 
-#content .container .ask-questions_right .button:hover{
+#content .container .ask-questions_right .button:hover {
     background: #e76b58;
-    color: #fff;
     transition: .3s;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2), 0 7px 20px rgba(0, 0, 0, 0.2);
 }
 
 .wrapper{
@@ -371,4 +368,42 @@ h3{
     margin-bottom: 50px;
     padding: 13px 0;
     
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #f4f4f4;
+    overflow: hidden;
+    margin: 14% auto;
+    padding: 20px;
+    width: 70%;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2), 0 7px 20px rgba(0, 0, 0, 0.2);
+
+}
+
+#closeBtn{
+    color: #ccc;
+    float: right;
+    font-size: 30px;
+}
+
+#closeBtn:hover,.closeBtn:focus{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-footer{
+    float: right;
 }
