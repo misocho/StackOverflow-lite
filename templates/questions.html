@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <title>StackOverflow-lite</title>
-    <link rel="stylesheet" type="text/css" href="../static/style.css">
-</head>
-
+    <head>
+        <meta charset="UTF-8">
+        <title>StackOverflow-lite</title>
+        <link rel="stylesheet" type="text/css" href="../static/style.css">
+    </head>
 <body>
     <div class="body_box container">
         <header class="top-bar">
             <div class="nav-bar container">
                 <nav>
                     <div class="logo container">StackOverflow-lite</div>
+                    <div class="search">
+                        <input class="search-bar" type="input" placeholder="Search...">
+                       
+                    </div>
+                   
                     <ul>
-                        <li><a href="#" class="youarehere">Home</a></li>
-                        <li><a href="questions.html">Questions</a></li>
+                        <li><a href="home.html" >Home</a></li>
+                        <li><a href="#" class="youarehere">Questions</a></li>
                         <li><a href="#">About</a></li>
                         <li><a class="active" href="signin.html">Sign In</a></li>
                     </ul>
@@ -26,7 +29,7 @@
             <div class="container content">
                 <div class="container">
                     <div class="top-questions_left">
-                        <h1>Top Questions</h1>
+                        <h1>All Questions</h1>
                     </div>
                     <div class="ask-questions_right">
                         <button id="modalBtn" class="button">Ask Question</button>
@@ -216,84 +219,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="q-list">
-                    <div class="q-summary">
-                        <div class="count">
-                            <div class="answer-count">
-                                <div class="total-counts">
-                                    <span title="answers">0</span>
-                                </div>
-                                <div>Answers</div>
-                            </div>
-                            <div class="votes-count">
-                                <div class="total-counts">
-                                    <span title="votes">0</span>
-                                </div>
-                                <div>Votes</div>
-                            </div>
-                        </div>
-                        <div class="summary">
-                            <a href="#" class="question">
-                                <h3>Nostrud minim mollit proident laboris ut et do commodo labore irure fugiat
-                                    incididunt
-                                    ipsum.</h3>
-                            </a>
-                            <div class="userTime"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="q-list">
-                    <div class="q-summary">
-                        <div class="count">
-                            <div class="answer-count">
-                                <div class="total-counts">
-                                    <span title="answers">0</span>
-                                </div>
-                                <div>Answers</div>
-                            </div>
-                            <div class="votes-count">
-                                <div class="total-counts">
-                                    <span title="votes">0</span>
-                                </div>
-                                <div>Votes</div>
-                            </div>
-                        </div>
-                        <div class="summary">
-                            <a href="#" class="question">
-                                <h3>Nostrud minim mollit proident laboris ut et do commodo labore irure fugiat
-                                    incididunt
-                                    ipsum.</h3>
-                            </a>
-                            <div class="userTime"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="q-list">
-                    <div class="q-summary">
-                        <div class="count">
-                            <div class="answer-count">
-                                <div class="total-counts">
-                                    <span title="answers">0</span>
-                                </div>
-                                <div>Answers</div>
-                            </div>
-                            <div class="votes-count">
-                                <div class="total-counts">
-                                    <span title="votes">0</span>
-                                </div>
-                                <div>Votes</div>
-                            </div>
-                        </div>
-                        <div class="summary">
-                            <a href="#" class="question">
-                                <h3>Nostrud minim mollit proident laboris ut et do commodo labore irure fugiat
-                                    incididunt
-                                    ipsum.</h3>
-                            </a>
-                            <div class="userTime"></div>
-                        </div>
-                    </div>
-                </div>
+               
                 <div class="q-list">
                     <div class="q-summary">
                         <div class="count">
@@ -351,28 +277,28 @@
         </div>
         
         </div>
-        <div class="footer">
-                <p>
-                   © 2018 StackOverflow-lite; by brian misocho</p>
-            </div>
-            <div id="simpleModal" class="modal">
+    </div>
+    <div class="footer">
+        <p>
+           © 2018 StackOverflow-lite; by brian misocho</p>
+    </div>
+    <div id="simpleModal" class="modal">
 
-                <div class="modal-content">
-                    <div class="modalheader">
-                        <span id="closeBtn">&times;</span>
-                        <h2>Ask Question</h2>
-                    </div>
-                    <div class="modal-body">
-                        <input type="text" placeholder="Type your question here" class="question-text" autofocus>
-                        <textarea placeholder="Describe your question here..."></textarea>
-                    </div>
-                    <div class="modal-footer">
-                        <button class='button'>Post</button>
-                    </div>
-                </div>
-        
+        <div class="modal-content">
+            <div class="modalheader">
+                <span id="closeBtn">&times;</span>
+                <h2>Ask Question</h2>
             </div>
-            <script src="../static/main.js"></script>
+            <div class="modal-body">
+                <input type="text" placeholder="Type your question here" class="question-text" autofocus>
+                <textarea placeholder="Describe your question here..."></textarea>
+            </div>
+            <div class="modal-footer">
+                <button class='button'>Post</button>
+            </div>
+        </div>
+
+    </div>
+    <script src="../static/main.js"></script>
 </body>
-
 </html>
