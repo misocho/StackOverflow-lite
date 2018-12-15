@@ -29,9 +29,7 @@
                         <h1>Top Questions</h1>
                     </div>
                     <div class="ask-questions_right">
-                        <p>
-                            <a class="button" href="">Ask Question</a>
-                        </p>
+                        <button id="modalBtn" class="button">Ask Question</button>
                     </div>
                 </div>
             </div>
@@ -357,6 +355,24 @@
                 <p>
                    © 2018 StackOverflow-lite; by brian misocho</p>
             </div>
+            <div id="simpleModal" class="modal">
+
+                <div class="modal-content">
+                    <div class="modalheader">
+                        <span id="closeBtn">&times;</span>
+                        <h2>Ask Question</h2>
+                    </div>
+                    <div class="modal-body">
+                        <input type="text" placeholder="Type your question here" class="question-text" autofocus>
+                        <textarea placeholder="Describe your question here..."></textarea>
+                    </div>
+                    <div class="modal-footer">
+                        <button class='button'>Post</button>
+                    </div>
+                </div>
+        
+            </div>
+            <script src="../static/main.js"></script>
 </body>
 
 </html>
